@@ -1,3 +1,4 @@
+
 #Bootcamp: PHP task
 
 ##Task
@@ -9,7 +10,7 @@
 
 ##Installing project locally
 
-* Install xampp if you don't have it allready - [link](https://www.apachefriends.org/ru/index.html)
+* Install xampp if you don't have it allready - [Download XAMPP](https://www.apachefriends.org/ru/index.html)
 *  `git clone https://github.com/Maximbndrnk/systaro-bootcamp-php-task-.git`, put project in your `xampp/htdocs` folder
 *  run Apache and MySQL
 *  In browser navigate to [localhost](http://localhost/shopping-list/)
