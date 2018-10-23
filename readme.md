@@ -11,9 +11,9 @@
 ## Installing project locally
 
 * Install xampp if you don't have it allready - [Download XAMPP](https://www.apachefriends.org/ru/index.html)
-*  `git clone https://github.com/Maximbndrnk/systaro-bootcamp-php-task-.git`, put project in your `xampp/htdocs` folder
+*  `git clone https://github.com/Maximbndrnk/systaro-bootcamp-php-task.git`, put project in your `xampp/htdocs` folder
 *  run Apache and MySQL
-*  In browser navigate to [localhost](http://localhost/shopping-list/)
+*  In browser navigate to [localhost/systaro-bootcamp-php-task/](http://localhost/systaro-bootcamp-php-task/)
 
 By the first time lunching at the top of page you will see messages that DB are created and also tables are created.
 
