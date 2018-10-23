@@ -1,0 +1,165 @@
+$hover-color: #bdc3c7;
+$list-color: #ecf0f1;
+
+
+
+*, body, html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;     
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden-object {
+    display: none;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 15px;
+}
+.header-title {
+    font-size: 24px;
+}
+
+.secondary-title {
+    font-size: 16px;
+}
+
+.add-new {
+    font-weight: 600;
+    &:hover {
+        
+    }
+}
+        
+.body-container {      
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;       
+    padding: 20px 15px;   
+}
+
+.many-list-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;     
+}
+.avaliable-lists {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.add-new-list-container {
+    width: 100%;
+    height: 40px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $hover-color;  
+    &:hover {
+        background-color: $hover-color;
+        cursor: pointer;
+    }
+}
+
+.avaliavle-lists-label {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.one-shopping-list {
+    width: 100%;
+    height: 40px;
+    display: flex;  
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 5px;
+    border: 1px solid $hover-color;
+    &:hover {
+        background-color: $hover-color;
+        cursor: pointer;
+    }
+}
+
+.list-container {
+    margin-left: 15px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.create-edit-list-container {
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: $list-color;
+    
+    input {
+        border: none;
+        outline: none;
+        width: 250px;
+        margin-left: 5px;
+        background-color: transparent;
+    } 
+    * {
+        margin-right: 10px;
+    }    
+}
+
+.list-action-button {
+    height: 40px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    &:hover {
+        color: white;
+        background-color: $hover-color;
+        cursor: pointer;
+    }
+}
+
+.product-container {
+    margin-top:5px; 
+    width: 100%;
+    min-height: 40px;
+    display: flex;justify-content: space-between;align-items: center;
+    background-color: $list-color;
+    * {
+        margin-right: 10px;
+    } 
+    div {
+        height: 100%;
+    }
+}
+
+.add-item-to-list {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: $list-color;
+}
+
+input.item-name {
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid $hover-color;
+}
+
+.inp-check {
+    margin-left: 5px;
+}
