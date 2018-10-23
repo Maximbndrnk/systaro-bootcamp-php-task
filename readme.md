@@ -1,12 +1,12 @@
 
 # Bootcamp: PHP task
----
+
 ## Task
 
 * Please build a web-app with php (see step 2 of the bootcamp) with the functionality to CRUD shopping-lists. The shopping-lists should have an editable name, a created-date and an updated-date.
 * Also each list should have within it the functionality to CRUD list-entries. Each list-entry has a name and the states "open" and "checked" - crossing off one entry sets it from open to checked. You can also turn it back to open.
 * Different lists have different list-entries.
----
+
 ## Installing project locally
 
 * Install xampp if you don't have it allready - [Download XAMPP](https://www.apachefriends.org/ru/index.html)

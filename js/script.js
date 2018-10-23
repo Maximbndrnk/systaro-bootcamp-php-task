@@ -186,7 +186,7 @@ function loadLists() {
                 output += '<div class="one-shopping-list" onclick="showList('+ 
                  lists[i].id+')"><p class="list-name">'
                     + lists[i].name +
-                    '</p></div>';
+                    '</p><p class="list-created">Added:'+ lists[i].createDate +'</p><p class="list-created">Updated:'+ lists[i].updateDate +'</p></div>';
             }
             if(output == ''){
                 output += '<div class="one-shopping-list"><p class="list-name">'
